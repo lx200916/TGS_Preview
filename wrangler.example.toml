@@ -1,0 +1,9 @@
+name = "myapp"
+type = "webpack"
+
+account_id = ""
+workers_dev = true
+vars = { BotToken = "" }
+[env.production]
+route = ""
+zone_id = ""
