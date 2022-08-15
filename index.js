@@ -39,7 +39,7 @@ router.get("/:text/get.tgs", async ({ params,url },event) => {
 router.get("/:text/preview", async ({ params,url },event) => {
   return new Response(`<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="https://npm.elemecdn.com/@lottiefiles/lottie-player@1.3.1/dist/tgs-player.js"></script>
+<script crossorigin="anonymous" src="https://lib.baomitu.com/lottie-player/1.5.7/tgs-player.min.js"></script>
 <div style='display:flex; justify-content:center;align-items:center;flex-direction:column'>
 <div style='display:flex;justify-content:center;align-items:center;text-align:center; '>
 
